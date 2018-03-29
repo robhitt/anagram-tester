@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="author" content="Rob Hitt">
+  <meta name="description" content="Anagram Tester">
+  <link rel="shortcut icon" href="https://www.weightwatchers.com/us/sites/default/files/favicon-ww-32px.png">
+  <link rel="stylesheet" href="css/master.css" type="text/css">
+
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="header-text">
+      <p>Anagram Tester</p>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <form id="anagram-form">
+      <div>
+        <label for="word-1">
+          <input type="text" placeholder="Jim Morrison" name="word-1" />
+          <span>First Word </span>
+        </label>
+      </div>
+
+      <div>
+        <label for="word-2">
+          <input type="text" placeholder="Mr Mojo Risin" name="word-2" />
+          <span>Second Word</span>
+        </label>
+      </div>
+
+      <div>
+        <input type="submit" class="submit-btn" name="Submit Anagrams" />
+      </div>
+    </form>
+  </main>
+
+  <div class="anagram-result anagram-result-hidden"></div>
+
+</body>
+
+</html>
