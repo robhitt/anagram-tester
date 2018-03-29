@@ -52,6 +52,7 @@ label input:focus {
 }
 
 .submit-btn {
+  background-color: #fff;
   border: 2px solid aqua;
   height: 40px;
   outline: none;
