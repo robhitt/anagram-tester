@@ -82,3 +82,9 @@ main,
   margin: 15px auto 0;
   width: 360px;
 }
+
+@media only screen and (max-width: 360px) {
+  .header-text p {
+    font-size: 26px;
+  }
+}
