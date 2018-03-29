@@ -77,3 +77,8 @@ main,
 .bold {
   font-weight: 700;
 }
+
+.doors-video {
+  margin: 15px auto 0;
+  width: 360px;
+}

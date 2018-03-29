@@ -50,7 +50,6 @@ function app() {
   }
 
   function checkIfAnagram(word1count, word2count) {
-    
     for (let prop in word1count) {
       if (word1count[prop] !== word2count[prop]) {
         return false;
